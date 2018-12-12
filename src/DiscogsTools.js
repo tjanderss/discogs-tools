@@ -185,7 +185,8 @@ const main = async () => {
   {{#results}}
   <tr>
   <td><img src="images/{{id}}.jpg"/></td>
-  <td>{{artist}} - {{title}}<br/><p>{{label}} ({{catno}}), Released {{released}}, {{genres}} [ <a target="_blank" href="{{uri}}">discogs</a> ]</p></td>
+  <td>{{artist}} - {{title}}<br/><p>{{label}} ({{catno}}), Released {{released}}, {{genres}}<br/>
+  [ <a target="_blank" href="{{uri}}">discogs</a> ]</p></td>
   {{/results}}
   </table>`
 
