@@ -1,0 +1,18 @@
+{
+    "baseUri": "https://api.discogs.com",
+    "authToken": "<insert token here>",
+    "folderName": "<name of Discogs folder to scan>",
+    "pageSize": <page size for Discogs API requests or remove definition to use default of 100 items per page>,
+    "limiterTime": <minimum time in millis to use per Discogs API request (rate limiting). Remove definition to use default of 1000 millis>,
+    "debug": false,
+    "includeConditions": [
+        "Very Good (VG)",
+        "Good Plus (G+)",
+        "Near Mint (NM or M-)",
+        "Good (G)",
+        "Very Good Plus (VG+)",
+        "Mint (M)",
+        "Fair (F)",
+        "Poor (P)"
+    ]
+}
